@@ -29,17 +29,11 @@ header {
     padding-top: 20px;
 }
 
-#oldcars {
-    height: 500px;
-    width: 100%;
-    background-color: #61f704;
-    position: relative;
-    min-height: 100vh
-}
+
 
 #origin {
     color: #f0f8ff;
-    list-style-type: none;
+    list-style-type: none; border: 0 solid #f73d04;
 }
 
 #company {
@@ -48,28 +42,44 @@ header {
     align-content: center;
 }
 
+nav a {
+    color: #f0f8ff;
+    list-style-type: none;
+}
+
 h1,
 h2,
 h3 {
     font-family: 'jost', sans-serif;
+    font-size: larger;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #61f704;
+}
+
+#oldcars {
+    height: 500px;
+    width: 100%;
+    background-color: #61f704;
+    position: relative;
+    min-height: 100vh
 }
 
 #media {
     background-color: #666363;
     color: #f0f8ff;
     position: flex-end;
-    height: 300px;
+    height: 100px;
     padding-left: 20px;
 }
 
 #media-icons i {
-    font-size: 100%;
+    font-size: 150%;
     padding: 4%;
     color: #61f704;
     justify-items: right;
 }
 
-footer p {color: #f73d04;}
+footer p {
+    color: #f73d04;
+}

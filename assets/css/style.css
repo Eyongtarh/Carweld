@@ -29,22 +29,23 @@ header {
     padding-top: 20px;
 }
 
-
-
-#origin {
-    color: #f0f8ff;
-    list-style-type: none; border: 0 solid #f73d04;
-}
-
 #company {
     color: #f0f8ff;
     margin-left: 20px;
     align-content: center;
 }
 
-nav a {
+#anchors {
+    display: flex;
+    gap: 50px;
+}
+
+#origin button {
+    border: 3px solid #f73d04;
+    border-radius: 10%;
+    padding: 1px;
     color: #f0f8ff;
-    list-style-type: none;
+    background-color: #666363;
 }
 
 h1,

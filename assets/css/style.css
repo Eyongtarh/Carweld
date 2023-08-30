@@ -35,8 +35,6 @@ header {
     background-color: #61f704;
     position: relative;
     min-height: 100vh
-
-
 }
 
 #origin {
@@ -63,4 +61,15 @@ h3 {
     background-color: #666363;
     color: #f0f8ff;
     position: flex-end;
+    height: 300px;
+    padding-left: 20px;
 }
+
+#media-icons i {
+    font-size: 100%;
+    padding: 4%;
+    color: #61f704;
+    justify-items: right;
+}
+
+footer p {color: #f73d04;}

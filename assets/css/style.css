@@ -21,12 +21,10 @@ body {
 /* Header */
 header {
     background-color: #666363;
-    padding: 0;
     position: fixed;
     z-index: 99;
     width: 100%;
-    display: flex;
-    padding-top: 20px;
+    padding: 2px 20px;
 }
 
 #company {
@@ -35,17 +33,15 @@ header {
     align-content: center;
 }
 
-#anchors {
-    display: flex;
-    gap: 50px;
+#anchors { background-color: #f73d04; 
 }
 
-#origin button {
+nav button {
     border: 3px solid #f73d04;
     border-radius: 10%;
-    padding: 1px;
+    padding: 2px;
     color: #f0f8ff;
-    background-color: #666363;
+    background-color: #f73d04;
 }
 
 h1,

@@ -80,10 +80,17 @@ h3 {
     margin-left: 59em;
 }
 
-#welcome-note h2{color: #c0370d;}
+#welcome-note h2 {
+    color: #c0370d;
+}
 
-#p-note{background-color: #666363; color: #f0f8ff; margin: 2px;
-opacity: .75; border-radius: 15px;}
+#p-note {
+    background-color: #666363;
+    color: #f0f8ff;
+    margin: 2px;
+    opacity: .75;
+    border-radius: 15px;
+}
 
 #welder {
 
@@ -101,7 +108,10 @@ opacity: .75; border-radius: 15px;}
 }
 
 #media {
-    display: flex; justify-self: center; gap: 20em; flex-wrap: wrap;
+    display: flex;
+    justify-self: center;
+    gap: 20em;
+    flex-wrap: wrap;
     background-color: #666363;
     color: #f0f8ff;
     position: flex-end;
@@ -117,8 +127,12 @@ opacity: .75; border-radius: 15px;}
     justify-items: right;
 }
 
-footer p {
+footer h3 {
     color: #c0370d;
+}
+
+footer p {
+    color: #f0f8ff;
 }
 
 /* Media Queries: Tablets and Laber (540px and up) */

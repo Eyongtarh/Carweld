@@ -34,12 +34,17 @@ header {
 }
 
 #anchors {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
     background-color: #f73d04;
     height: 30px;
 }
+
 #anchors a>button:hover {
     background-color: #666363;
 }
+
 nav button {
     border: 3px solid #f73d04;
     border-radius: 10%;
@@ -66,12 +71,28 @@ h3 {
     min-height: 100vh
 }
 
+#welder {
+    height: 500px;
+    width: 100%;
+    background-color: #61f704;
+    position: relative;
+
+    min-height: 100vh
+}
+
+#booker {
+    height: 500px;
+    width: 100%;
+    background-color: #61f704;
+    position: relative;
+    min-height: 100vh}
+
 #media {
     background-color: #666363;
     color: #f0f8ff;
     position: flex-end;
     height: 80px;
-    padding: 5px 20px;
+    padding: 0 20px;
 
 }
 
@@ -89,11 +110,9 @@ footer p {
 /* Media Queries: Tablets and Laber (540px and up) */
 @media screen and (min-width: 576px) {
     #media {
-            background-color: #666363;
-            color: #f0f8ff;
-            position: flex-end;
-            height: 120px;
-            padding: 1px 40px;
+
+        height: 125px;
+
     }
 }
 

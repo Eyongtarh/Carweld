@@ -101,6 +101,7 @@ opacity: .75; border-radius: 15px;}
 }
 
 #media {
+    display: flex; justify-self: center; gap: 20em; flex-wrap: wrap;
     background-color: #666363;
     color: #f0f8ff;
     position: flex-end;

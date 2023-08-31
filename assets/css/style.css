@@ -53,11 +53,18 @@ nav button {
     background-color: #c0370d;
 }
 
-h1,
+h1 {
+    font-family: 'jost', sans-serif;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #56bd17;
+}
+
 h2,
 h3 {
     font-family: 'jost', sans-serif;
-    font-size: larger;
+    font-size: large;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #56bd17;
@@ -77,14 +84,14 @@ h3 {
     margin-top: 130px;
     max-width: 300px;
     max-height: 300px;
-    margin-left: 59em;
+    
 }
 
 #welcome-note h2 {
     color: #c0370d;
 }
 
-#p-note {
+#welcome-note p {
     background-color: #666363;
     color: #f0f8ff;
     margin: 2px;
@@ -114,25 +121,26 @@ h3 {
     flex-wrap: wrap;
     background-color: #666363;
     color: #f0f8ff;
-    position: flex-end;
-    height: 80px;
-    padding: 0 20px;
+    height: 5px;
+    padding-left: 40px;
+    padding-top: 30px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    
 
 }
 
-#media-icons i {
-    font-size: 150%;
-    padding: 4%;
+#media-icons i {size: 20rem;
     color: #56bd17;
-    justify-items: right;
 }
 
-footer h3 {
-    color: #c0370d;
-}
-
-footer p {
+#copyright {
+    display: flex;
+    align-items: center;
+    background-color: #666363;
     color: #f0f8ff;
+    height:50px;
+    gap: 200px;
 }
 
 /* Media Queries: Tablets and Laber (540px and up) */

@@ -11,7 +11,7 @@
 
 /*General Rules*/
 body {
-    min-height: 73vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     color: #666363;
@@ -25,10 +25,6 @@ header {
     z-index: 99;
     width: 100%;
     padding: 2px 20px;
-}
-
-#carlogo i {
-    width: 100px;
 }
 
 #company {
@@ -69,31 +65,39 @@ h3 {
 
 #oldcars {
     background: url("../images/carn.jpeg") no-repeat center center/cover;
-    min-height: 73vh
-}
-#welcome-note{
-    background: url("../images/nature.jpeg") no-repeat center center/cover;
-    
-    border-radius: 5%;
-    margin-top: 120px;
-    max-width: 350px;
-    max-height: 200px;
-    opacity: o.1x;
+    min-height: 95vh;
+    width: 100%
 }
 
+#welcome-note {
+    background: url("../images/nature.jpeg") no-repeat center center/cover;
+    display: flex;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 130px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 59em;
+}
+
+#welcome-note h2{color: #c0370d;}
+
+#p-note{background-color: #666363; color: #f0f8ff; margin: 2px;
+opacity: .75; border-radius: 15px;}
+
 #welder {
-    
+
     background-color: #56bd17;
     position: relative;
 
-    min-height: 73vh
+    min-height: 90vh
 }
 
 #booker {
-    
+
     background-color: #56bd17;
     position: relative;
-    min-height: 73vh
+    min-height: 90vh
 }
 
 #media {

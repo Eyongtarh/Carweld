@@ -33,7 +33,8 @@ header {
     align-content: center;
 }
 
-#anchors { background-color: #f73d04; 
+#anchors {
+    background-color: #f73d04;
 }
 
 nav button {
@@ -68,6 +69,7 @@ h3 {
     position: flex-end;
     height: 100px;
     padding-left: 20px;
+
 }
 
 #media-icons i {
@@ -79,4 +81,31 @@ h3 {
 
 footer p {
     color: #f73d04;
+}
+
+/* Media Queries: Tablets and Laber (540px and up) */
+@media screen and (min-width: 576px) {
+    #media {
+        padding-left: 100px;
+    }
+}
+
+
+
+/* Media Queries: Tablets and Laber (768px and up) */ 
+@media screen and (min-width: 768px) { 
+
+
+}
+
+
+/* Media Queries: laptops and desktops  (992px and up) */
+@media screen and (min-width: 992px) {
+
+
+}
+
+/* Media Queries: laptops and desktops  (1200px and up) */
+@media screen and (min-width: 1200px) {
+
 }

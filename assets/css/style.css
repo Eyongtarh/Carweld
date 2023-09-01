@@ -11,11 +11,12 @@
 
 /*General Rules*/
 body {
-    background-image: url("../images/signup-image.webp");
+    background: url("../images/black.jpeg") no-repeat center center/cover;
+    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #666363;
+    color: #f0f8ff;
     font-family: 'mukta', sans-serif;
 }
 
@@ -61,7 +62,7 @@ nav button {
     margin-top: 6vh;
     max-width: 400px;
     max-height: 400px;
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: justify;
     justify-content: space-evenly;
 }
@@ -69,6 +70,16 @@ nav button {
 #welcome-note h2 {
     text-align: center;
 }
+
+#access {
+    margin-top: 3vh;
+    max-width: 400px;
+    max-height: 400px;
+    padding-left: 10px;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
 
 h1 {
     font-family: 'jost', sans-serif;
@@ -113,6 +124,7 @@ h3 {
 p {
     padding-left: 0;
 }
+
 /* Media Queries: Tablets and Laber (540px and up) */
 @media screen and (min-width: 576px) {
     #media {

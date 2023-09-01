@@ -125,36 +125,138 @@ p {
     padding-left: 0;
 }
 
-/* Media Queries: Tablets and Laber (540px and up) */
-@media screen and (min-width: 576px) {
-    #media {
-
-        height: 125px;
-
+/* Media Queries: Tablets and Laber (280px and up) */
+@media screen and (min-width: 280px) {
+    #anchors {
+        margin-top: 14vh;
     }
+
+    #access {
+        margin-top: 5vh;
+    }
+
 }
 
+/* Media Queries: Tablets and Laber (375px and up) */
+@media screen and (min-width: 375px) {
+    #anchors {
+        margin-top: 13.3vh;
+    }
 
+    #access {
+        margin-top: 14vh;
+    }
 
+}
+
+/* Media Queries: Tablets and Laber (390px and up) */
+@media screen and (min-width: 390px) {
+    #anchors {
+        margin-top: 11vh;
+    }
+
+    #welcome-note {
+        margin-top: 11vh;
+    }
+
+    #access {
+        margin-top: 30vh;
+    }
+
+}
+
+/* Media Queries: Tablets and Laber (414px and up) */
+@media screen and (min-width: 414px) {
+    #anchors {
+        margin-top: 10vh;
+    }
+
+    #welcome-note {
+        margin-top: 11vh;
+    }
+
+    #access {
+        margin-top: 30vh;
+    }
+
+}
+
+/* Media Queries: Tablets and Laber (540px and up) */
+@media screen and (min-width: 540px) {
+    #anchors {
+            margin-top: 12.5vh;
+        }
+    
+        #welcome-note {
+            margin-top: 11vh;
+        }
+    
+        #access {
+            margin-top: 25vh;
+        }
+    
+    }
 /* Media Queries: Tablets and Laber (768px and up) */
 @media screen and (min-width: 768px) {
 
-    #media {
-        height: 125px;
+    #anchors {
+            margin-top: 9vh;
+        }
+    
+        #welcome-note {
+            margin-top: 18vh;
+        }
+    
+        #access {
+            margin-top: 30vh;
+        }
+    
     }
 
 
-}
-
-
-/* Media Queries: laptops and desktops  (992px and up) */
-@media screen and (min-width: 992px) {
-    #media {
-        height: 150px;
+/* Media Queries: laptops and desktops  (912px and up) */
+@media screen and (min-width: 912px) {
+    #anchors {
+            margin-top: 6.5vh;
+        }
+    
+        #welcome-note {
+            margin-top: 11vh;
+        }
+    
+        #access {
+            margin-top: 50vh;
+        }
+    
     }
 
+/* Media Queries: laptops and desktops  (1024px and up) */
+@media screen and (min-width: 1024px) {
+    #anchors {
+            margin-top: 15vh;
+        }
+    
+        #welcome-note {
+            margin-top: 11vh;
+        }
+    
+        #access {
+            margin-top: 30vh;
+        }
+    
+    }
+/* Media Queries: laptops and desktops  (1280px and up) */
+@media screen and (min-width: 1280px) {
+    #anchors {
+        margin-top: 11vh;
+    }
+
+    #welcome-note {
+        margin-top: 11vh;
+    }
+
+    #access {
+        margin-top: 30vh;
+    }
 
 }
-
-/* Media Queries: laptops and desktops  (1200px and up) */
-@media screen and (min-width: 1200px) {}

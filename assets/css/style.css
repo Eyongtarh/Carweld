@@ -124,8 +124,12 @@ h3 {
     color: #56bd17;
 }
 
-
-
+#booking>button:hover {
+    background-color: #c0370d;
+    color: #f0f8ff;
+    border-radius: 4px;
+}
+#booking h2{color: #c0370d;}
 #media-icons {
     text-align: center;
     padding: 20px 10px;
@@ -146,9 +150,9 @@ h3 {
 
 }
 
-#media span,
-p {
+#media>span {
     padding-left: 0;
+    color: #c0370d;
 }
 
 /*

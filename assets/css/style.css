@@ -11,7 +11,8 @@
 
 /*General Rules*/
 body {
-    min-height: 95vh;
+    background-image: url("../images/signup-image.webp");
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: #666363;
@@ -21,7 +22,7 @@ body {
 /* Header */
 header {
     background-color: #666363;
-    position: fixed;
+    position: absolute;
     z-index: 99;
     width: 100%;
     padding: 2px 20px;
@@ -53,6 +54,21 @@ nav button {
     background-color: #c0370d;
 }
 
+
+#welcome-note {
+    /*Push content down to accommodate header */
+    margin-top: 20vh;
+    max-width: 400px;
+    max-height: 400px;
+    padding-left: 20px;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+#welcome-note h2 {
+    text-align: center;
+}
+
 h1 {
     font-family: 'jost', sans-serif;
     font-size: x-large;
@@ -70,77 +86,31 @@ h3 {
     color: #56bd17;
 }
 
-#oldcars {
-    background: url("../images/carn.jpeg") no-repeat center center/cover;
-    min-height: 95vh;
-    width: 100%
-}
 
-#welcome-note {
-    background: url("../images/nature.jpeg") no-repeat center center/cover;
-    display: flex;
+
+#media-icons {
     text-align: center;
-    border-radius: 5%;
-    margin-top: 130px;
-    max-width: 300px;
-    max-height: 300px;
-    
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
-#welcome-note h2 {
-    color: #c0370d;
-}
-
-#welcome-note p {
-    background-color: #666363;
-    color: #f0f8ff;
-    margin: 2px;
-    opacity: .75;
-    border-radius: 15px;
-}
-
-#welder {
-
-    background-color: #56bd17;
-    position: relative;
-
-    min-height: 90vh
-}
-
-#booker {
-
-    background-color: #56bd17;
-    position: relative;
-    min-height: 90vh
+#media-icons i {
+    color: #56bd17;
+    font-size: x-large;
 }
 
 #media {
-    display: flex;
-    justify-self: center;
-    gap: 20em;
-    flex-wrap: wrap;
     background-color: #666363;
     color: #f0f8ff;
-    height: 5px;
-    padding-left: 40px;
-    padding-top: 30px;
-    flex-basis: 100px;
-    flex-grow: 1;
-    
+    padding-left: 80px;
 
 }
 
-#media-icons i {size: 20rem;
-    color: #56bd17;
-}
-
-#copyright {
-    display: flex;
-    align-items: center;
-    background-color: #666363;
-    color: #f0f8ff;
-    height:50px;
-    gap: 200px;
+#media span,
+p {
+    padding-left: 0;
 }
 
 /* Media Queries: Tablets and Laber (540px and up) */

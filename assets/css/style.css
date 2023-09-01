@@ -42,6 +42,7 @@ header {
     justify-content: flex-end;
     background-color: #c0370d;
     height: 30px;
+    z-index: 99;
 }
 
 #anchors a>button:hover {

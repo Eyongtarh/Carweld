@@ -20,6 +20,7 @@ body {
     font-family: 'mukta', sans-serif;
 }
 
+
 /* Header */
 header {
     background-color: #666363;
@@ -68,11 +69,9 @@ nav button {
     justify-content: space-evenly;
 }
 
-#welcome-note h2 {
-    text-align: center;
-}
-
-#access {
+#welcome-weld {
+    background: url("../images/weld.jpeg") no-repeat center center/cover;
+    position: relative;
     margin-top: 5vh;
     max-width: 400px;
     max-height: 400px;
@@ -81,6 +80,32 @@ nav button {
     justify-content: space-evenly;
 }
 
+#book-service {
+    margin-top: 14vh;
+    margin-bottom: 5em;
+    padding-left: 5em;
+    background-color: #666363;
+    max-width: 400px;
+    max-height: 400px;
+    text-align: justify;
+    justify-content: space-evenly;
+
+}
+
+#welcome-note h2 {
+    text-align: center;
+}
+
+#access {
+    padding-left: 10px;
+    margin-top: 5vh;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+#book-service h2 {
+    color: #f0f8ff;
+}
 
 h1 {
     font-family: 'jost', sans-serif;

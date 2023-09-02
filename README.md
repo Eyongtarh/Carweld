@@ -73,3 +73,25 @@ queries work for specific sizes and not for ranges.
 One unfixed bug from HTMl which stating that I place a butting inside an ancnor
 element. This does not have any problem on page so its ignored.
 
+## Deployment
+
+This site is deployed to GitHub pages. Theprocedure is viz:
+-Go to GitHub repository and click on Settings.
+-At the left side, click on pages.
+-At the source section drop-down menu, select the Master Branch
+-At this point, click save, the page will be automatically refreshed.
+-A links will be available and indicate the successful deployment.
+-If not , refresh the page.
+
+### Credits
+
+I got some material from the Love running project, course conten, Wikipedia.
+
+### Content
+
+I used font awesome, Google fonts, 
+
+### Media
+
+Favicon image is mine. Background images and images used within pages are from 
+pixel. 

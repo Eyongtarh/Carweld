@@ -110,10 +110,10 @@ nav button {
 
 #access {
     padding-left: 10px;
-    margin-top: 1vh;
+    margin-top: 2vh;
     text-align: justify;
     justify-content: space-evenly;
-    align-self: baseline;
+   
 }
 
 #book-service h2 {

@@ -15,6 +15,7 @@ body {
     position: relative;
     min-height: 100vh;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     color: #f0f8ff;
     font-family: 'mukta', sans-serif;
@@ -29,9 +30,13 @@ header {
     padding: 2px 20px;
     z-index: 99;
 }
- #carlogo {padding-left: 20px;}
+
+#carlogo {
+    padding-left: 20px;
+}
+
 #company {
-    
+
     color: #f0f8ff;
     margin-left: 20px;
     align-content: center;
@@ -44,7 +49,7 @@ header {
     justify-content: flex-end;
     background-color: #c0370d;
     height: 30px;
-    
+
 }
 
 #anchors a>button:hover {
@@ -74,14 +79,18 @@ nav button {
 #welcome-weld {
     background: url("../images/weld.jpeg") no-repeat center center/cover;
     position: relative;
-    margin-top: 33.3vh;
+    margin-top: 30vh;
     max-width: 400px;
     max-height: 400px;
     padding-left: 10px;
     text-align: justify;
     justify-content: space-evenly;
 }
-#welcome-weld h2 {color: #f0f8ff;}
+
+#welcome-weld h2 {
+    color: #f0f8ff;
+}
+
 #book-service {
     margin-top: 32vh;
     margin-bottom: 5em;
@@ -91,6 +100,7 @@ nav button {
     max-height: 400px;
     text-align: justify;
     justify-content: space-evenly;
+    align-self: baseline;
 
 }
 
@@ -103,6 +113,7 @@ nav button {
     margin-top: 1vh;
     text-align: justify;
     justify-content: space-evenly;
+    align-self: baseline;
 }
 
 #book-service h2 {
@@ -131,7 +142,11 @@ h3 {
     color: #f0f8ff;
     border-radius: 4px;
 }
-#booking h2{color: #c0370d;}
+
+#booking h2 {
+    color: #c0370d;
+}
+
 #media-icons {
     text-align: center;
     padding: 20px 10px;
@@ -150,6 +165,7 @@ h3 {
     background-color: #666363;
     color: #f0f8ff;
     padding-left: 80px;
+    
 
 }
 
@@ -157,7 +173,8 @@ h3 {
     padding-left: 0;
     color: #c0370d;
 }
-/*
+
+/*  
 /* Media Queries: Tablets and Laber (280px x 653px) *
 @media screen and (min-width: 280px) {
     #anchors {
@@ -166,6 +183,10 @@ h3 {
 
     #access {
         margin-top: 6.5vh;
+    }
+
+    #book-service {
+        margin-top: 32vh;
     }
 
 }
@@ -180,6 +201,9 @@ h3 {
         margin-top: 14vh;
     }
 
+    #book-service {
+        margin-top: 38vh;
+    }
 }
 
 /* Media Queries: Tablets and Laber (390px x 884px) *
@@ -191,27 +215,34 @@ h3 {
     #welcome-note {
         margin-top: 11vh;
     }
+        #book-service {
+            margin-top: 52vh;
+        }
 
     #access {
-        margin-top: 30vh;
+        margin-top: 20vh;
     }
 
 }
 
 /* Media Queries: Tablets and Laber (414px x 894px) *
 @media screen and (min-width: 414px) {
-    #anchors {
-        margin-top: 9vh;
+
+    #welcome-weld {
+        margin-top: 50vh;
     }
 
     #welcome-note {
-        margin-top: 12vh;
+        margin-top: 30vh;
+    }
+
+    #book-service {
+        margin-top: 54vh;
     }
 
     #access {
         margin-top: 30vh;
     }
-
 }
 
 /* Media Queries: Tablets and Laber (540px x 720px) *
@@ -237,14 +268,22 @@ h3 {
     }
 
     #welcome-note {
-        margin-top: 11vh;
+        margin-top: 27vh;
     }
+        #welcome-weld {
+            margin-top: 38vh;
+        }
+
+        #book-service {
+            margin-top: 50vh;
+        }
 
     #access {
-        margin-top: 25vh;
+        margin-top: 10vh;
     }
 
 }
+
 /* Media Queries: laptops and desktops  (412px x 892px)*
 @media screen and (min-width: 412px) {
     #anchors {
@@ -260,6 +299,7 @@ h3 {
     }
 
 }
+
 /* Media Queries: Tablets and Laber (768px x 1024) *
 @media screen and (min-width: 768px) {
 
@@ -276,6 +316,7 @@ h3 {
     }
 
 }
+
 /* Media Queries: Tablets and Laber (820px x 1180x) *
 @media screen and (min-width: 820px) {
     #anchors {
@@ -355,18 +396,5 @@ h3 {
     }
 
 }
-/* Media Queries: laptops and desktops  (1920px x 1080px)*
-@media screen and (min-width: 1920px) {
-    #anchors {
-        margin-top: 20vh;
-    }
 
-    #welcome-note {
-        margin-top: 11vh;
-    }
-
-    #access {
-        margin-top: 30vh;
-    }
-
-}*/
+/* Media Queries: laptops and desktops  (1920px x 1080px)*/

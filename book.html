@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="drscription" content="Car repairs, car wash, car polishing,
-    car tune-up, car lubrication, art welding, welding, " />
+         car tune-up, car lubrication, art welding, welding, " />
     <meta name="keywords" content="Car maintenance, repairs,  art welding, metal" />
     <title>Carweld</title>
     <!-- favicon -->
@@ -18,64 +18,54 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <div>
-                <span id="company">
-                    <h1>CARWELD</h1>
-                    <p id="carlogo"><i class="fa-solid fa-car"></i></p>
-                </span>
-            </div>
-
-        </header>
-        </div>
-        <nav>
-            <div id="anchors">
-                <span>
-                    <a href="index.html"><button type="button">
-                            Car Repairs</button></a>
-                </span>
-                <span>
-                    <a href="weld.html" class="active"><button type="button">Welding</button></a>
-                </span>
-                <span>
-                    <a href="book.html"><button type="button">Book Service</button></a>
-                </span>
-
-            </div>
+    <header>
+    
+        <h1 id="company">CARWELD</h1>
+        <p id="carlogo"><i class="fa-solid fa-car"></i></p>
+        <nav id="anchors">
+    
+            <span>
+                <a href="index.html" class="active"><button type="button">Car Repairs</button></a>
+            </span>
+            <span>
+                <a href="weld.html"><button type="button">Welding</button></a>
+            </span>
+            <span>
+                <a href="book.html"><button type="button">Book Service</button></a>
+            </span>
         </nav>
-
-<section id="book-service">
-    <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
-        <div>
-            <h2>
-                <i class="fa-solid fa-wrench"></i></i> Book Service!
-            </h2>
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name" class="text-input" required />
-            <br />
-            <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name" class="text-input" required />
-            <br />
-            <label for="email_address">Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" required />
-            <br />
+    </header>
+    
+    <section id="book-service">
+        <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
             <div>
-                <label for="servics-type">Type of Service</label>
-                <input id="service-type" list="services" name="service-type" required>
-                <datalist id="services">
-                    <option value="Car Repairs">
-                    <option value="welding">
+                <h2>
+                    <i class="fa-solid fa-wrench"></i></i> Book Service!
+                </h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required />
+                <br />
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required />
+                <br />
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required />
+                <br />
+                <div>
+                    <label for="servics-type">Type of Service</label>
+                    <input id="service-type" list="services" name="service-type" required>
+                    <datalist id="services">
+                        <option value="Car Repairs">
+                        <option value="welding">
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="service-type" id="both" value="both" />
+                </div>
             </div>
-            <div>
-                <label for="both">Both</label>
-                <input type="radio" name="service-type" id="both" value="both" />
-            </div>
-        </div>
-        <button type="submit" class="join-button">Book Service</button>
-    </form>
-</section>
-
+            <button type="submit" class="join-button">Book Service</button>
+        </form>
+    </section>
     <footer id="media">
         <span>
             Find us on:
@@ -102,7 +92,6 @@
                     <i class="fa-brands fa-square-youtube"></i></a>
             </li>
         </ul>
-
         <p>Copyright © Carweld 2023</p>
     </footer>
     <!--link to fontawesome-->

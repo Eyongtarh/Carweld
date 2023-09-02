@@ -27,6 +27,7 @@ header {
     position: absolute;
     width: 100%;
     padding: 2px 20px;
+    z-index: 99;
 }
 
 #company {
@@ -36,7 +37,7 @@ header {
 }
 
 #anchors {
-    margin-top: 15vh;
+    margin-top: 14.5vh;
     display: flex;
     align-content: center;
     justify-content: flex-end;
@@ -55,12 +56,13 @@ nav button {
     padding: 2px;
     color: #f0f8ff;
     background-color: #c0370d;
+    z-index: 99;
 }
 
-
+/* */
 #welcome-note {
     /*Push content down to accommodate header */
-    margin-top: 5vh;
+    margin-top: 29vh;
     max-width: 400px;
     max-height: 400px;
     padding-left: 10px;
@@ -71,7 +73,7 @@ nav button {
 #welcome-weld {
     background: url("../images/weld.jpeg") no-repeat center center/cover;
     position: relative;
-    margin-top: 9vh;
+    margin-top: 33.3vh;
     max-width: 400px;
     max-height: 400px;
     padding-left: 10px;
@@ -80,7 +82,7 @@ nav button {
 }
 #welcome-weld h2 {color: #f0f8ff;}
 #book-service {
-    margin-top: 14vh;
+    margin-top: 34vh;
     margin-bottom: 5em;
     padding-left: 5em;
     background-color: #666363;
@@ -97,7 +99,7 @@ nav button {
 
 #access {
     padding-left: 10px;
-    margin-top: 5vh;
+    margin-top: 1vh;
     text-align: justify;
     justify-content: space-evenly;
 }
@@ -143,6 +145,7 @@ h3 {
 }
 
 #media {
+    
     background-color: #666363;
     color: #f0f8ff;
     padding-left: 80px;
@@ -153,25 +156,23 @@ h3 {
     padding-left: 0;
     color: #c0370d;
 }
-
 /*
-
-/* Media Queries: Tablets and Laber (280px and up) 
+/* Media Queries: Tablets and Laber (280px x 653px) *
 @media screen and (min-width: 280px) {
     #anchors {
-        margin-top: 14vh;
+        margin-top: 12.5vh;
     }
 
     #access {
-        margin-top: 5vh;
+        margin-top: 6.5vh;
     }
 
 }
 
-/* Media Queries: Tablets and Laber (375px and up) 
+/* Media Queries: Tablets and Laber (375px and up) *
 @media screen and (min-width: 375px) {
     #anchors {
-        margin-top: 13.3vh;
+        margin-top: 12.5vh;
     }
 
     #access {
@@ -180,10 +181,10 @@ h3 {
 
 }
 
-/* Media Queries: Tablets and Laber (390px x 884px) 
+/* Media Queries: Tablets and Laber (390px x 884px) *
 @media screen and (min-width: 390px) {
     #anchors {
-        margin-top: 11vh;
+        margin-top: 9vh;
     }
 
     #welcome-note {
@@ -196,14 +197,14 @@ h3 {
 
 }
 
-/* Media Queries: Tablets and Laber (414px x 894px) 
+/* Media Queries: Tablets and Laber (414px x 894px) *
 @media screen and (min-width: 414px) {
     #anchors {
-        margin-top: 10vh;
+        margin-top: 9vh;
     }
 
     #welcome-note {
-        margin-top: 11vh;
+        margin-top: 12vh;
     }
 
     #access {
@@ -212,7 +213,7 @@ h3 {
 
 }
 
-/* Media Queries: Tablets and Laber (540px x 720px) 
+/* Media Queries: Tablets and Laber (540px x 720px) *
 @media screen and (min-width: 540px) {
     #anchors {
         margin-top: 12.5vh;
@@ -228,15 +229,29 @@ h3 {
 
 }
 
-/* Media Queries: Tablets and Laber (768px x 1024) 
-@media screen and (min-width: 768px) {
+/* Media Queries: Tablets and Laber (360px x 740px) *
+@media screen and (min-width: 360px) {
+    #anchors {
+        margin-top: 11vh;
+    }
 
+    #welcome-note {
+        margin-top: 11vh;
+    }
+
+    #access {
+        margin-top: 25vh;
+    }
+
+}
+/* Media Queries: laptops and desktops  (412px x 892px)*
+@media screen and (min-width: 412px) {
     #anchors {
         margin-top: 9vh;
     }
 
     #welcome-note {
-        margin-top: 18vh;
+        margin-top: 11vh;
     }
 
     #access {
@@ -244,16 +259,46 @@ h3 {
     }
 
 }
+/* Media Queries: Tablets and Laber (768px x 1024) *
+@media screen and (min-width: 768px) {
 
-
-/* Media Queries: laptops and desktops  (912px x 1368) 
-@media screen and (min-width: 912px) {
     #anchors {
-        margin-top: 6.5vh;
+        margin-top: 8vh;
     }
 
     #welcome-note {
-        margin-top: 11vh;
+        margin-top: 18vh;
+    }
+
+    #access {
+        margin-top: 31vh;
+    }
+
+}
+/* Media Queries: Tablets and Laber (820px x 1180x) *
+@media screen and (min-width: 820px) {
+    #anchors {
+        margin-top: 7vh;
+    }
+
+    #welcome-note {
+        margin-top: 16vh;
+    }
+
+    #access {
+        margin-top: 40vh;
+    }
+
+}
+
+/* Media Queries: laptops and desktops  (912px x 1368) *
+@media screen and (min-width: 912px) {
+    #anchors {
+        margin-top: 5.8vh;
+    }
+
+    #welcome-note {
+        margin-top: 12vh;
     }
 
     #access {
@@ -262,10 +307,10 @@ h3 {
 
 }
 
-/* Media Queries: laptops and desktops  (1024px x 600px) 
+/* Media Queries: laptops and desktops  (1024px x 600px) *
 @media screen and (min-width: 1024px) {
     #anchors {
-        margin-top: 15vh;
+        margin-top: 14vh;
     }
 
     #welcome-note {
@@ -278,10 +323,10 @@ h3 {
 
 }
 
-/* Media Queries: laptops and desktops  (1280px x 800px) 
+/* Media Queries: laptops and desktops  (1280px x 800px)*
 @media screen and (min-width: 1280px) {
     #anchors {
-        margin-top: 11vh;
+        margin-top: 10vh;
     }
 
     #welcome-note {
@@ -294,19 +339,33 @@ h3 {
 
 }
 
-/* Media Queries: laptops and desktops  (1920 and up) 
-@media screen and (min-width: 1220) {
+/* Media Queries: laptops and desktops  (1024px x 1366px)*
+@media screen and (min-width: 1024px) {
     #anchors {
-        margin-top: 60vh;
+        margin-top: 6vh;
     }
 
     #welcome-note {
-        margin-top: 13vh;
+        margin-top: 18vh;
     }
 
     #access {
-        margin-top: 25vh;
+        margin-top: 50vh;
     }
 
 }
-*/
+/* Media Queries: laptops and desktops  (1920px x 1080px)*
+@media screen and (min-width: 1920px) {
+    #anchors {
+        margin-top: 20vh;
+    }
+
+    #welcome-note {
+        margin-top: 11vh;
+    }
+
+    #access {
+        margin-top: 30vh;
+    }
+
+}*/

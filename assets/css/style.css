@@ -29,8 +29,9 @@ header {
     padding: 2px 20px;
     z-index: 99;
 }
-
+ #carlogo {padding-left: 20px;}
 #company {
+    
     color: #f0f8ff;
     margin-left: 20px;
     align-content: center;
@@ -62,7 +63,7 @@ nav button {
 /* */
 #welcome-note {
     /*Push content down to accommodate header */
-    margin-top: 29vh;
+    margin-top: 30vh;
     max-width: 400px;
     max-height: 400px;
     padding-left: 10px;
@@ -145,7 +146,7 @@ h3 {
 }
 
 #media {
-    
+    max-height: 150px;
     background-color: #666363;
     color: #f0f8ff;
     padding-left: 80px;

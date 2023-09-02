@@ -5,7 +5,7 @@
 
 Carweld is a car maintainance and welding service provider. It seeks to make easy 
 accessibility to help of these services when need be.
-
+<img src="../images/carweld.jpeg">
 ## Features
 
 ### Header

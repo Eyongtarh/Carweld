@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="drscription" content="Car repairs, car wash, car polishing,
-         car tune-up, car lubrication, art welding, welding, " />
+    <meta name="drscription"
+        content="Car repairs, car wash, car polishing, car tune-up, car lubrication, art welding, welding, " />
     <meta name="keywords" content="Car maintenance, repairs,  art welding, metal" />
     <title>Carweld</title>
     <!-- favicon -->
@@ -19,11 +19,10 @@
 
 <body>
     <header>
-    
         <h1 id="company">CARWELD</h1>
         <p id="carlogo"><i class="fa-solid fa-car"></i></p>
         <nav id="anchors">
-    
+
             <span>
                 <a href="index.html" class="active"><button type="button">Car Repairs</button></a>
             </span>
@@ -35,22 +34,22 @@
             </span>
         </nav>
     </header>
-    
-    <section id="book-service">
-        <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
-            <div>
-                <h2>
-                    <i class="fa-solid fa-wrench"></i> Book Service!
-                </h2>
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required />
-                <br />
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required />
-                <br />
-                <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required />
-                <br />
+    <main>
+        <section id="book-service">
+            <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
+                <div>
+                    <h2>
+                        <i class="fa-solid fa-wrench"></i> Book Service!
+                    </h2>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required />
+                    <br />
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required />
+                    <br />
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required />
+                    <br />
                 </div>
                 <div>
                     <label for="service-type">Type of Service</label>
@@ -58,21 +57,23 @@
                     <datalist id="services">
                         <option value="Car Repairs">
                         <option value="welding">
-                        </datalist>
-                        </div>
+                    </datalist>
+                </div>
                 <div>
                     <label for="both">Both</label>
                     <input type="radio" name="service-type" id="both" value="both" />
                 </div>
-            
-            <button type="submit" class="join-button">Book Service</button>
-        </form>
-    </section>
-    <footer id="media">
-        
-            <p>Mondays-Sundays</p>
-            <p>09:00-18:00</p>
-        
+
+                <button type="submit" class="join-button">Book Service</button>
+            </form>
+        </section>
+    </main>
+    <h3>Media Icons</h3>
+    <footer>
+
+        <p>Mondays-Sundays</p>
+        <p>09:00-18:00</p>
+
         <ul id="media-icons">
             <li>
                 <a href="http://www.facebook.com/" target="_blank" rel="noopener"

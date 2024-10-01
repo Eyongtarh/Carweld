@@ -65,7 +65,13 @@ nav button {
     z-index: 99;
 }
 
-/* */
+/* Main: section one and section two */
+
+main {
+    margin-top: 3em;
+    flex: 1 0 auto;
+}
+
 #welcome-note {
     /*Push content down to accommodate header */
     margin-top: 30vh;
@@ -113,7 +119,7 @@ nav button {
     margin-top: 2vh;
     text-align: justify;
     justify-content: space-evenly;
-   
+
 }
 
 #book-service h2 {
@@ -160,16 +166,16 @@ h3 {
     font-size: x-large;
 }
 
-#media {
+footer {
     max-height: 150px;
     background-color: #666363;
     color: #f0f8ff;
     padding-left: 80px;
-    
-
+    bottom: o;
+    left: 0;
 }
 
-#media>span {
+footer>span {
     padding-left: 0;
     color: #c0370d;
 }

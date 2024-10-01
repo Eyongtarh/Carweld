@@ -35,7 +35,7 @@ header {
     background-color: rgba(61, 73, 107, 0.8);
     position: absolute;
     width: 100%;
-    height: 14rem;
+    height: 15rem;
     z-index: 99;
 }
 
@@ -111,15 +111,14 @@ main {
 
 #book-service {
     margin-top: 32vh;
-    margin-bottom: 5em;
-    padding-left: 5em;
+    margin-bottom: 0;
+    padding: 30px 0px;
     background-color: #666363;
     max-width: 400px;
-    max-height: 400px;
-    text-align: justify;
-    justify-content: space-evenly;
-    align-self: baseline;
-
+    max-height: 600px;
+    text-align: center;
+    transform: translate(5%);
+    border-radius: 10px;
 }
 
 #welcome-note h2 {
@@ -145,13 +144,26 @@ h3 {
     color: #56bd17;
 }
 
+#booking button {
+    padding: 6px;
+    background-color: #56bd17;
+    border: 3px solid #c0370d;
+    color: #f0f8ff;
+    border-radius: 10px;
+    font-size: large;
+}
+
 #booking>button:hover {
     background-color: #c0370d;
     color: #f0f8ff;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 #booking h2 {
+    color: #56bd17;
+}
+
+#booking h2 i {
     color: #c0370d;
 }
 

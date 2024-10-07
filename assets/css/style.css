@@ -184,10 +184,20 @@ h3 {
 
 /* section two */
 
-.carw-pic {
+.carw-pic,
+picture {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.carw-pic picture img {
+    width: 80%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 40%;
 }
 
 .carw-pic img {
@@ -250,9 +260,13 @@ h3 {
 
 #media-icons i {
     color: #c0370d;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
+#media-icons i:hover {
+    color: #f0f8ff;
+    font-size: xx-large;
+}
 
 /*  
 /* Media Queries: Tablets and Laber (280px x 653px) *

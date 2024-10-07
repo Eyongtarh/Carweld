@@ -112,27 +112,12 @@ nav a:hover {
 /* Main: section one and section two */
 
 main {
-    margin-top: 10px;
+    margin-top: 10rem;
     flex: 1 0 auto;
 }
 
 /*section one: index.html */
-#welcome-note {
-    margin-top: 30vh;
-    max-width: 400px;
-    max-height: 400px;
-    padding-left: 10px;
-    text-align: justify;
-    justify-content: space-evenly;
-}
 
-#welcome-weld {
-    margin-top: 30vh;
-}
-
-#welcome-weld h2 {
-    color: #f0f8ff;
-}
 
 #book-service {
     display: flex;
@@ -198,8 +183,6 @@ h3 {
 }
 
 /* Footer */
-
-footer {}
 
 .access {
     margin-top: 7em;

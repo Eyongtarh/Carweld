@@ -116,7 +116,7 @@ main {
     flex: 1 0 auto;
 }
 
-/*section one: index.html */
+/* section one */
 
 
 #book-service {
@@ -180,6 +180,23 @@ h3 {
 
 #booking h2 i {
     color: #c0370d;
+}
+
+/* section two */
+
+.carw-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carw-pic img {
+    width: 80%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 40%;
 }
 
 /* Footer */

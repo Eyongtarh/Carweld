@@ -270,7 +270,7 @@ h3 {
 }
 
 
-/* Media Queries: Tablets, Laptops and destops (820px width and up) */
+/* Media Queries: Tablets, Laptops and destops (800px width and up) */
 @media screen and (min-width: 800px) {
     header {
         height: 13rem;

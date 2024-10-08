@@ -56,21 +56,18 @@ header input {
 }
 
 nav {
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
     position: absolute;
     background-color: none;
     width: 100%;
     border-radius: 10px;
     z-index: 99;
-    flex: 1;
     display: none;
 }
 
 nav ul li {
     list-style-type: none;
-    display: block;
+    display: flex;
+    justify-content: flex-end;
     padding: 6px 6px;
     position: relative;
     margin-top: 4px;
@@ -106,7 +103,8 @@ nav a:hover {
 }
 
 .menu-label {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Main: section one and section two */
@@ -121,7 +119,7 @@ main {
 
 #book-service {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
@@ -268,227 +266,37 @@ h3 {
     font-size: xx-large;
 }
 
-/*  
-/* Media Queries: Tablets and Laber (280px x 653px) *
-@media screen and (min-width: 280px) {
-    #anchors {
-        margin-top: 12.5vh;
+
+/* Media Queries: Tablets, Laptops and destops (820px width and up) */
+@media screen and (min-width: 800px) {
+    header {
+        height: 13rem;
     }
 
-    #access {
-        margin-top: 6.5vh;
+    nav {
+        display: flex;
+        flex: 1;
+        align-content: center;
+        justify-content: flex-end;
+        background-color: #56bd17;
+        margin-top: 4rem;
     }
 
-    #book-service {
-        margin-top: 32vh;
+    .menu-label {
+        display: none;
     }
 
-}
+    nav ul li {
+        display: inline-block;
 
-/* Media Queries: Tablets and Laber (375px and up) *
-@media screen and (min-width: 375px) {
-    #anchors {
-        margin-top: 12.5vh;
     }
 
-    #access {
-        margin-top: 14vh;
-    }
-
-    #book-service {
-        margin-top: 38vh;
-    }
-}
-
-/* Media Queries: Tablets and Laber (390px x 884px) *
-@media screen and (min-width: 390px) {
-    #anchors {
-        margin-top: 9vh;
-    }
-
-    #welcome-note {
-        margin-top: 11vh;
-    }
-        #book-service {
-            margin-top: 52vh;
-        }
-
-    #access {
-        margin-top: 20vh;
-    }
-
-}
-
-/* Media Queries: Tablets and Laber (414px x 894px) *
-@media screen and (min-width: 414px) {
-
-    #welcome-weld {
-        margin-top: 50vh;
-    }
-
-    #welcome-note {
-        margin-top: 30vh;
+    nav ul li a {
+        padding: 3px 10px;
     }
 
     #book-service {
-        margin-top: 54vh;
-    }
-
-    #access {
-        margin-top: 30vh;
+        width: 50%;
+        margin-top: 9rem;
     }
 }
-
-/* Media Queries: Tablets and Laber (540px x 720px) *
-@media screen and (min-width: 540px) {
-    #anchors {
-        margin-top: 12.5vh;
-    }
-
-    #welcome-note {
-        margin-top: 11vh;
-    }
-
-    #access {
-        margin-top: 25vh;
-    }
-
-}
-
-/* Media Queries: Tablets and Laber (360px x 740px) *
-@media screen and (min-width: 360px) {
-    #anchors {
-        margin-top: 11vh;
-    }
-
-    #welcome-note {
-        margin-top: 27vh;
-    }
-        #welcome-weld {
-            margin-top: 38vh;
-        }
-
-        #book-service {
-            margin-top: 50vh;
-        }
-
-    #access {
-        margin-top: 10vh;
-    }
-
-}
-
-/* Media Queries: laptops and desktops  (412px x 892px)*
-@media screen and (min-width: 412px) {
-    #anchors {
-        margin-top: 9vh;
-    }
-
-    #welcome-note {
-        margin-top: 11vh;
-    }
-
-    #access {
-        margin-top: 30vh;
-    }
-
-}
-
-/* Media Queries: Tablets and Laber (768px x 1024) *
-@media screen and (min-width: 768px) {
-
-    #anchors {
-        margin-top: 8vh;
-    }
-
-    #welcome-note {
-        margin-top: 18vh;
-    }
-
-    #access {
-        margin-top: 31vh;
-    }
-
-}
-
-/* Media Queries: Tablets and Laber (820px x 1180x) *
-@media screen and (min-width: 820px) {
-    #anchors {
-        margin-top: 7vh;
-    }
-
-    #welcome-note {
-        margin-top: 16vh;
-    }
-
-    #access {
-        margin-top: 40vh;
-    }
-
-}
-
-/* Media Queries: laptops and desktops  (912px x 1368) *
-@media screen and (min-width: 912px) {
-    #anchors {
-        margin-top: 5.8vh;
-    }
-
-    #welcome-note {
-        margin-top: 12vh;
-    }
-
-    #access {
-        margin-top: 50vh;
-    }
-
-}
-
-/* Media Queries: laptops and desktops  (1024px x 600px) *
-@media screen and (min-width: 1024px) {
-    #anchors {
-        margin-top: 14vh;
-    }
-
-    #welcome-note {
-        margin-top: 11vh;
-    }
-
-    #access {
-        margin-top: 30vh;
-    }
-
-}
-
-/* Media Queries: laptops and desktops  (1280px x 800px)*
-@media screen and (min-width: 1280px) {
-    #anchors {
-        margin-top: 10vh;
-    }
-
-    #welcome-note {
-        margin-top: 11vh;
-    }
-
-    #access {
-        margin-top: 30vh;
-    }
-
-}
-
-/* Media Queries: laptops and desktops  (1024px x 1366px)*
-@media screen and (min-width: 1024px) {
-    #anchors {
-        margin-top: 6vh;
-    }
-
-    #welcome-note {
-        margin-top: 18vh;
-    }
-
-    #access {
-        margin-top: 50vh;
-    }
-
-}
-
-/* Media Queries: laptops and desktops  (1920px x 1080px)*/

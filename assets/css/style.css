@@ -70,7 +70,7 @@ nav ul li {
     justify-content: flex-end;
     padding: 6px 6px;
     position: relative;
-    margin-top: 4px;
+    margin-top: 0px;
 }
 
 nav ul li a {
@@ -126,8 +126,7 @@ main {
 
 .book-service {
     display: flex;
-    margin-top: 7rem;
-    margin-bottom: 0;
+    margin-bottom: 5rem;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -293,7 +292,7 @@ h3 {
         align-content: center;
         justify-content: flex-end;
         background-color: #56bd17;
-        margin-top: 4rem;
+        margin-top: 4.5rem;
     }
 
     .menu-label {

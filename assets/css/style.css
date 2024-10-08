@@ -110,14 +110,21 @@ nav a:hover {
 /* Main: section one and section two */
 
 main {
-    margin-top: 10rem;
+    margin-top: 17rem;
     flex: 1 0 auto;
 }
 
 /* section one */
 
+.service-t {
+    text-align: center;
+}
 
-#book-service {
+.service-t h1 {
+    color: #c0370d;
+}
+
+.book-service {
     display: flex;
     margin-top: 7rem;
     margin-bottom: 0;
@@ -138,7 +145,7 @@ main {
     text-align: center;
 }
 
-#book-service h2 {
+.book-service h2 {
     color: #f0f8ff;
 }
 
@@ -178,6 +185,10 @@ h3 {
 
 #booking h2 i {
     color: #c0370d;
+}
+
+#welcome-car h1 {
+    text-align: center;
 }
 
 /* section two */
@@ -298,7 +309,7 @@ h3 {
         padding: 3px 10px;
     }
 
-    #book-service {
+    .book-service {
         width: 50%;
         margin-top: 9rem;
     }

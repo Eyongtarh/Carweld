@@ -186,6 +186,12 @@ h3 {
     color: #c0370d;
 }
 
+#first_name,
+#last_name,
+#email_address {
+    text-align: center;
+}
+
 #welcome-car h1 {
     text-align: center;
 }

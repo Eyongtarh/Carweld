@@ -199,6 +199,9 @@ picture {
 }
 
 .carw-pic img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     height: 400px;
     background-position: center;
@@ -298,5 +301,30 @@ h3 {
     #book-service {
         width: 50%;
         margin-top: 9rem;
+    }
+
+    #access-home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #access-home div {
+        flex: 1;
+    }
+
+    #access-pic {
+        order: 0;
+    }
+
+    #access-one {
+        order: 1;
+    }
+
+    #access-one div {
+        align-self: flex-start;
+    }
+
+    #access-two div {
+        align-self: flex-end;
     }
 }

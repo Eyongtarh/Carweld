@@ -197,8 +197,7 @@ h3 {
 
 /* section two */
 
-.carw-pic,
-picture {
+.carw-pic picture {
     display: flex;
     justify-content: center;
     align-items: center;

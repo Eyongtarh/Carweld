@@ -4,94 +4,245 @@
 [Link to Carweld](https://eyongtarh.github.io/Carweld/)
 
 Carweld is a car maintainance and welding service provider. It seeks to make easy 
-accessibility to help of these services when need be.
+accessible to help these services when need be.
 <img src="../images/carweld.jpeg">
+
 ## Features
 
 ### Header
 
-The header includes the name : CARWELD, and a car logo. It also includes a 
-navigation bar. The navigation bar accommodates the links to the three pages:
-car repairs, welding, and a booking page for services.
+The header includes the name : CARWELD, and a car logo. Both have a link to home page. It also includes a 
+navigation bar. The navigation bar accommodates the links to the three pages: car repairs, welding, and a 
+booking page for services. The header can be seen below:
 
-### Car repairs section
+<a>
+<img src="assets/images/.jpeg" alt="Header image for Carweld">
+</a>
 
-Here, a not explainin the types of services offered by Carwell is introduced. It
-also highlights the importance of the environment in relation to the services 
-offered.
+### Car repairs Page
 
-### Contact information
+Here, there are four different services availbe. Firstly, general repairs: a note explainin the types 
+of services offered here is introduced. It also highlights the importance of the environment in relation 
+to the services offered. Other services here icludes tryes, part replacement and car wash. lastly, a 
+vintage car picture sits in it. See image below:
 
-The address, email address and telephone number of Carweld is include in the first
-two pages just below the information note by the left hand side.
+<a>
+<img src="assets/images/.jpeg" alt="Car repairs page">
+</a>
 
-### Welding Section
+
+### Welding Page
 
 The welding section is in the second page and includes a statement that indicates
-Carweld is providing all types of welding services. Also , it emphasis the flow
-of a sustainable means to achieve its services.
+Carweld is providing four types of welding services. Also , it emphasis the flow
+of a sustainable means to achieve its services. Below is an image of Welding page:
+
+<a>
+<img src="assets/images/.jpeg" alt="Welding page">
+</a>
+
+
+### Booking Services page
+
+This is the third and final page. It provides form to fill in first name and
+last name. It also contains a datalist which indicates if someone 
+is in need of car repairs services or welding services. It also contains a checkbox for 
+those who are in need of both services. See photo below:
+
+<a>
+<img src="assets/images/.jpeg" alt="Booking Services page">
+</a>
+
 
 ### The footer
+
+The footer is diveded into two parts: contact information and Social media as shown in the image below:
+
+<a>
+<img src="assets/images/.jpeg" alt="Footer page">
+</a>
+
+#### Contact information
+
+The first part of the footer contains the contact information, address, opening hours and search bar. 
+
+
+#### Socia Media
 
 The footer contains three different features. The first is the opening hours of
 Carweld. The second feature are links to social media websites which opens in a 
 new page: Twitter, YouTube, Instagram, and Facebook. And lastly, a copyrights
 statement.
 
-### Bookin Services Section
-
-This is the third and final page. It provides sections to fill in first name and
-last name. It also contains a datalist booking form which indicates if someone 
-is in need of car repairs services or welding. It also contains a checkbox for 
-those who are in need of both services. 
 
 ## Testing
 
 ### Within Page
 
-The links included in the page works perfectly.The booking form also shows a 
-positive respond to use.
+The links included in the page works perfectly.The book service form also shows a positive respond to use. The form submission page is shown below:
+<a>
+<img src="assets/images/pw.jpeg" alt="Form Submission Page">
+</a>
 
 ### Lighthouse
 
-The accessibility rating in light house is OK.
+The accessibility rating for page one in lighthouse is OK. The lighthouse test for the Car repairs page is shown below :
+
+<a>
+<img src="assets/images/lh1.jpeg" alt="Lighthouse test for page 1">
+</a>
+
+
+The accessibility rating for page two in lighthouse is OK. The lighthouse test for the Welding page is shown below :
+
+<a>
+<img src="assets/images/lh2.jpeg" alt="Lighthouse test for page 1">
+</a>
+
+
+The accessibility rating for page 3 in lighthouse is OK. The lighthouse test for the book service page is shown below :
+
+<a>
+<img src="assets/images/lh3.jpeg" alt="Lighthouse test for page 1">
+</a>
+
 
 ### Media Queries 
 
-The site works on different screen sizes but not perfectly. This is partly because 
-I commented out the media queries made in the stylesheet. BUt mainly because the 
-queries work for specific sizes and not for ranges.
+The site works on different screen sizes and therefore, it is fully responsive. The Responsive viewer was used to test for site responsiveness. A photo of page 1, page 2 and page 3 are shown below repectively.
+
+<a>
+<img src="assets/images/iPhone-14-Pro-395x3447.png" alt="Responsive Design iphone 14" height="500">
+<img src="assets/images/iPhone-14-Pro-Max-430x3402.png" alt="Responsive Design iphone 14 pro-max" height="500">
+<img src="assets/images/Pixel-7-Pro-480x3287.png" alt="Responsive Design" height="500">
+<img src="assets/images/iPad-Air-5-820x2786.png" alt="Responsive Design ipad Air 5" height="500">
+<img src="assets/images/Macbook-Air-1559x1723.png" alt="Responsive Design Mac Air" height="500">
+</a>
+
+
+<a>
+<img src="assets/images/iPhone-14.png" alt="Responsive Design iphone 14" height="500">
+<img src="assets/images/iPhone-14-Pro-Max-430x3462.png" alt="Responsive Design iphone 14 pro-max" height="500">
+<img src="assets/images/Pixel-7-Pro-.png" alt="Responsive Design" height="500">
+<img src="assets/images/iphone-5.png" alt="Responsive Design ipad Air 5" height="500">
+<img src="assets/images/Macbook-Air-.png" alt="Responsive Design Mac Air" height="500">
+</a>
+
+
+<a>
+<img src="assets/images/iPhone-14-Prom3.png" alt="Responsive Design iphone 14" height="500">
+<img src="assets/images/iPhone-14-Prom3.png" alt="Responsive Design iphone 14 pro-max" height="500">
+<img src="assets/images/Pixel-7-Pro3.png" alt="Responsive Design" height="500">
+<img src="assets/images/ip5.png" alt="Responsive Design ipad Air 5" height="500">
+<img src="assets/images/Macbook-Air3.png" alt="Responsive Design Mac Air" height="500">
+</a>
+
+
+Check out <a href="https://responsiveviewer.org/" target="_blank">Site Responsiveness</a> by Responsive viewer.
+
+<a>
+<img src="assets/images/respn.jpeg" alt="Responsive layout">
+</a>
+
+
+Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" target="_blank">Site Responsiveness</a> by ui.dev/amiresponsive.
+
 
 ### Validation Testing
 
--HTML shows one bug error returned when passing through the official W3C validator.
+-The HTML validator for the three pages returned no errors when passing through the official W3C validator. 
 
--CSS show no errors when passing through the official (Jigsaw) validator.
+Page one:
 
-### Unfixed Bugs
+<a>
+<img src="assets/images/pg1validator.jpeg" alt="Page one, w3 validator">
+</a>
 
-One unfixed bug from HTMl which stating that I place a butting inside an ancnor
-element. This does not have any problem on page so its ignored.
 
-## Deployment
+Page Two:
+
+<a>
+<img src="assets/images/pg2validator.jpeg" alt="Page two, w3 validator">
+</a>
+
+
+Page Three:
+
+<a>
+<img src="assets/images/pg3validator.jpeg" alt="Page three, w3 validator">
+</a>
+
+
+
+-The CSS validator shows no errors when passing through the official (Jigsaw) validator.
+
+<a>
+<img src="assets/images/cssvalidator.jpeg" alt="Css jigsaw validator">
+</a>
+
+### Bugs
+
+#### Unfixed Bugs
+
+I have not noticed any unfixed bug at the moment.
+
+#### Fixed Bugs
+
+- The Menu bar was at the edge of the right.
+  * Solution: I added two spacing tags to move it from the edge.
+
+- The form section width was extensive in laptops and desktop screen sizes. 
+  * Solution: This was resolved by setting reducing the width percentage for larger screen sizes.
+
+- The header overlaped the nav section.
+  * Solution: The remedy was to add margin-top to nav section to push it down to the base of header.
+
+
+## Technologies Used
+- HTML is used as the framework of the site
+- CSS is applied for the styles and site layout
+- Gitpod is used for writing the and editing the codes.
+- Git and Github used for version control and hosting website codes respectively.
+- W3C validator was used to validate the html and css codes.
+- Responsive Viewer was used to analise the website responsiveness.
+
+## Deployment to GitHub Pages
 
 This site is deployed to GitHub pages. Theprocedure is viz:
--Go to GitHub repository and click on Settings.
--At the left side, click on pages.
--At the source section drop-down menu, select the Master Branch
--At this point, click save, the page will be automatically refreshed.
--A links will be available and indicate the successful deployment.
--If not , refresh the page.
+- Go to GitHub repository and click on Settings.
+- At the left side, click on pages.
+- At the source section drop-down menu, select the Main Branch
+- At this point, click save, the page will be automatically refreshed.
+- A link will be available and indicate the successful deployment.
+- If not , refresh the page.
 
-### Credits
+## Future improvements
+- More content can be added.
+- There is also a need to make appropriate comments within my code lines and commit statement.
+- The form can be made to validate to a server in the long run.
 
-I got some material from the Love running project, course conten, Wikipedia.
+## Credits
 
-### Content
+I got some help from the Love running project, course content, Wikipedia , hot air tools.
 
-I used font awesome, Google fonts, 
+### Content 
+
+I used font awesome and Google fonts.  
 
 ### Media
+ - Background images, Favicon image, and images used within pages are from: [Pexels](https://www.pexels.com/).
+ - I also used personal images and video.
 
-Favicon image is mine. Background images and images used within pages are from 
-pixel. 
+
+#### Tools
+ - [FAVICON GENERATOR](https://favicon.io/) was used to generate the favicon.
+ - [bytes](https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" ) was used to test website 
+   responsiveness.
+
+
+## Acknowledgments
+
+- [Code Institute](https://codeinstitute.net/) tutors and Mentor for their continues support.
+- [Hot Air Tools](https://www.hotairtools.com/) content for welding page.
+
+

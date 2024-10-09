@@ -51,10 +51,6 @@ header {
     font-size: xx-large;
 }
 
-header input {
-    align-items: end;
-}
-
 nav {
     position: absolute;
     background-color: none;
@@ -332,7 +328,7 @@ h3 {
         order: 0;
     }
 
-    #access-one {
+    #access-two {
         order: 1;
     }
 

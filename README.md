@@ -4,8 +4,7 @@
 [Link to Carweld](https://eyongtarh.github.io/Carweld/)
 
 Carweld is a car maintainance and welding service provider. It seeks to make easy 
-accessible to help these services when need be.
-<img src="../images/carweld.jpeg">
+access to services when need be in the areas of car repaires and welding.
 
 ## Features
 
@@ -16,18 +15,18 @@ navigation bar. The navigation bar accommodates the links to the three pages: ca
 booking page for services. The header can be seen below:
 
 <a>
-<img src="assets/images/.jpeg" alt="Header image for Carweld">
+<img src="assets/images/hder.jpeg" alt="Header image for Carweld">
 </a>
 
 ### Car repairs Page
 
 Here, there are four different services availbe. Firstly, general repairs: a note explainin the types 
 of services offered here is introduced. It also highlights the importance of the environment in relation 
-to the services offered. Other services here icludes tryes, part replacement and car wash. lastly, a 
+to the services offered. Other services here icludes tryes, part replacement and car wash. Lastly, a 
 vintage car picture sits in it. See image below:
 
 <a>
-<img src="assets/images/.jpeg" alt="Car repairs page">
+<img src="assets/images/serv.jpeg" alt="Car repairs page">
 </a>
 
 
@@ -38,19 +37,19 @@ Carweld is providing four types of welding services. Also , it emphasis the flow
 of a sustainable means to achieve its services. Below is an image of Welding page:
 
 <a>
-<img src="assets/images/.jpeg" alt="Welding page">
+<img src="assets/images/welserv.jpeg" alt="Welding page">
 </a>
 
 
 ### Booking Services page
 
-This is the third and final page. It provides form to fill in first name and
-last name. It also contains a datalist which indicates if someone 
+This is the third and final page. It provides form to fill which includes first name, 
+last name, and email. It also contains a datalist which indicates if someone 
 is in need of car repairs services or welding services. It also contains a checkbox for 
 those who are in need of both services. See photo below:
 
 <a>
-<img src="assets/images/.jpeg" alt="Booking Services page">
+<img src="assets/images/bserv.jpeg" alt="Booking Services page">
 </a>
 
 
@@ -59,7 +58,7 @@ those who are in need of both services. See photo below:
 The footer is diveded into two parts: contact information and Social media as shown in the image below:
 
 <a>
-<img src="assets/images/.jpeg" alt="Footer page">
+<img src="assets/images/fserv.jpeg" alt="Footer page">
 </a>
 
 #### Contact information
@@ -81,7 +80,7 @@ statement.
 
 The links included in the page works perfectly.The book service form also shows a positive respond to use. The form submission page is shown below:
 <a>
-<img src="assets/images/pw.jpeg" alt="Form Submission Page">
+<img src="assets/images/gserv.jpeg" alt="Form Submission Page">
 </a>
 
 ### Lighthouse

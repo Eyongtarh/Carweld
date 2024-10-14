@@ -234,6 +234,9 @@ I used font awesome and Google fonts.
 
 
 #### Tools
+ - [FreeConvert](https://www.freeconvert.com/video-compressor) was used to edit video.
+ - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
+ - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
  - [FAVICON GENERATOR](https://favicon.io/) was used to generate the favicon.
  - [bytes](https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" ) was used to test website 
    responsiveness.
